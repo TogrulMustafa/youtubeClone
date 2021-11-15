@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-fff {
+    background-color: #fff;
+}
+.bg-000 {
+    background-color: #000;
+}
+.bg-eee {
+    background-color: #eee;
+}
+.color-000 {
+    color: #000;
+}
+.color-555 {
+    color: #555;
+}
+.color-fff {
+    color: #fff;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-2 {
+    width: 20%;
+}
+.basis-10 {
+    flex-basis: 10%;
+}
+.basis-20 {
+    flex-basis: 20%;
+}
+.basis-60 {
+    flex-basis: 60%;
+}
+.basis-90 {
+    flex-basis: 90%;
+}
+.ai-center {
+    align-items: center;
+}
+.jc-end {
+    justify-content: flex-end;
+}
+.between {
+    justify-content: space-between;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-5 {
+    padding: 5px;
+}
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.px-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mb-45 {
+    margin-bottom: 45px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.h-30 {
+    height: 30px;
+}
+.h-60 {
+    height: 60%;
+}
+.w-100 {
+    width: 100%;
+}
+.h-100 {
+    height: 100%;
+}
+.contain {
+    object-fit: contain;
+}
+.cover {
+    object-fit: cover;
+}
+.iblock {
+    display: inline-block;
+}
+.iflex-35 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width:35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.iflex-45 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width:45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.outline-none {
+    outline: none;
+}
+.border-aaa {
+    border: 1px solid #aaa;
+}
+.border-left {
+    border-left: none;
+}
+.pointer {
+    cursor: pointer;
+}
+input[type='search']::-webkit-search-cancel-button {
+    appearance: none;
+}
+input[type='button'] {
+    background: url('./img/magnify.svg') no-repeat center;
+    transition: all .3s ease;
+}
+input[type='button']:hover {
+    background-color: #eee;
+}
+.style-none {
+    list-style: none;
+}
+.decoration-none {
+    text-decoration: none;
+}
+.r-20 {
+    border-radius: 20px;
+}
+a {
+    transition: all .3s ease;
+}
+a:hover {
+    background-color: #bbb;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.bottom-10 {
+    bottom: 10px;
+}
+.right-10 {
+    right:10px
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-3 {
+    font-size: 3px;
+}
+.fw-bold {
+    font-weight: bold;
+}
